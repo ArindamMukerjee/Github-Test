@@ -60,3 +60,9 @@ rm -rf .git*
 
 # mergining files with unrelated history
 git pull origin master --allow-unrelated-histories
+
+# delete a local branch
+git branch -d second
+
+# delete a remote branch
+git push --delete origin second
