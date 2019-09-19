@@ -7,9 +7,12 @@ ls -la
 # add all the files to staging area
 git add .
 
+<<<<<<< HEAD
 # add any html file to staging area
 git add *.html	
 
+=======
+>>>>>>> 30168001d77f85c8153e941bad9e17a3b7a91ad1
 # look at commits made by a specific user
 git log --author = 'Arindam'
 
@@ -37,7 +40,10 @@ git mv first.txt NewFolder/new_name.txt
 
 # remove a file from staging area
 git reset HEAD first.txt
+<<<<<<< HEAD
 git rm --cached first.txt
+=======
+>>>>>>> 30168001d77f85c8153e941bad9e17a3b7a91ad1
 
 # getting a file back from the repositiory
 git checkout -- first.txt
@@ -54,8 +60,12 @@ git remote add githubRepo https://github.com/ArindamMukerjee/Github-Test.git
 # pushing all files to github
 git push -u githubRepo master
 
+<<<<<<< HEAD
 # remove git tracking from a folder
 rm -rf .git*
 
 # check .gitignore
 # check codes for creating and merging a
+=======
+# check .gitignore
+>>>>>>> 30168001d77f85c8153e941bad9e17a3b7a91ad1
